@@ -130,7 +130,7 @@ p, label, li{
 .contentimage {
     display: flex;
     align-self: flex-end;
-    width: 30%;
+    width: 20%;
     height: auto;
     object-fit: cover;
 }
