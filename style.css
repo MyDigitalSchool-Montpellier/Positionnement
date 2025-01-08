@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'DIN OT';
+    font-family: 'DINOT';
     src: url('../DIN OT/DINOT.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -18,7 +18,7 @@ body{
 h1{
     color: #000;
     text-align: center;
-    font-family: "DIN OT";
+    font-family: "DINOT";
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
@@ -34,7 +34,7 @@ h1{
 h2{
     color: #000;
     text-align: center;
-    font-family: "DIN OT";
+    font-family: "DINOT";
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
@@ -44,7 +44,7 @@ h2{
 h3{
     color: #000;
     text-align: center;
-    font-family: "DIN OT";
+    font-family: "DINOT";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -54,7 +54,7 @@ h3{
 h4{
     color: #000;
     text-align: justify;
-    font-family: "DIN OT";
+    font-family: "DINOT";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -63,7 +63,7 @@ h4{
 
 p, label, li{
     color: #000;
-    font-family: "DIN OT";
+    font-family: "DINOT";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
