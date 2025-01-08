@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de personnalité - MyDigitalSchool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo_mds.svg">
+</head>
+<body>
+    
+
+    <!--Les images sont dans le dossier "assets"-->
+    <!--Début de la page d'accueil, normalement personne ne doit le toucher-->
+    <div class="commencement background-all" id="commencement">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <div class="commencement-content">
+                <h1>
+                    Test de positionnement chez MyDigitalSchool
+                </h1>
+                <img src="assets/Image_introduction.png" alt="Pleins d'éléments graphiques de MyDigitalSchool">
+                <button id="btn-intro" onclick="toggleQuest1()">
+                    Commencer
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la page d'accueil-->
+
+
+
+    <!--Début de la question 1-->
+    <div class="question1 background-all" id="question1">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <img src="assets/cartable.png" alt="Illustration d'un cartable Made in MyDigitalSchool" class="illustration">
+            <div class="question-content question1-content">
+                <h1>
+                    Question 1 :
+                </h1>
+                <h4>
+                    Si tu devais organiser un projet scolaire, que ferais-tu en priorité ?      
+                </h4>
+                <div class="reponses">        <!--Il y a 3 réponses pour chaque questions-->                       
+                    <div class="reponse reponse2">
+                        <label for="check_dev1">                     <!--Chaque réponses doit faire référence à une spécialité proposé par MDS, donc Informatique, Marketing et Design. Par exemple ici, il y a le check_dev de renseigné, donc c'est la réponse dev.-->
+                            Préparer le fonctionnement technique ou résoudre des problèmes
+                        </label>
+                        <input type="radio" name="quest1" id="check_dev1">
+                    </div>
+                    <div class="reponse reponse1">
+                        <label for="check_design1">                 <!--Ici, c'est donc la réponse Design-->
+                            Imaginer le design et la présentation
+                        </label>
+                        <input type="radio" name="quest1" id="check_design1">
+                    </div>
+                    <div class="reponse reponse3">
+                        <label for="check_market1">                <!--Et ici la réponse Marketing-->
+                            Réfléchir à comment faire connaître le projet à tout le monde
+                        </label>
+                        <input type="radio" name="quest1" id="check_market1">
+                    </div>
+                </div>
+                <button id="btn-question1" onclick="passageQuestion1()">        <!--Ceci est le bouton pour passer d'une étape à une autre.-->
+                    Suivant
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la question 1-->
+
+
+    <!--Le format se répète donc 5 fois.-->
+
+     <!--Début de la question 2-->
+    <div class="question2 background-all" id="question2">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <img src="assets/telephone.png" alt="Illustration d'un cartable Made in MyDigitalSchool" class="illustration">
+            <div class="question-content question2-content">
+                <h1>
+                    Question 2 :
+                </h1>
+                <h4>
+                    Quand on te donne un sujet à travailler, tu préfères :
+                </h4>
+                <div class="reponses">
+                    <div class="reponse reponse1">
+                        <label for="check_design2">
+                            Dessiner, créer des visuels ou imaginer une mise en page
+                        </label>
+                        <input type="radio" name="quest2" id="check_design2">
+                    </div>
+                    <div class="reponse reponse3">
+                        <label for="check_market2">
+                            Proposer des idées pour convaincre et captiver
+                        </label>
+                        <input type="radio" name="quest2" id="check_market2">
+                    </div>
+                    <div class="reponse reponse2">
+                        <label for="check_dev2">
+                            Analyser le problème et trouver une solution logique
+                        </label>
+                        <input type="radio" name="quest2" id="check_dev2">
+                    </div>
+                </div>
+                <button id="btn-question2" onclick="passageQuestion2()">
+                    Suivant
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la question 2-->
+
+     <!--Début de la question 3-->
+    <div class="question3 background-all" id="question3">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <img src="assets/dialogue.png" alt="Illustration d'un cartable Made in MyDigitalSchool" class="illustration">
+            <div class="question-content question1-content">
+                <h1>
+                    Question 3 :
+                </h1>
+                <h4>
+                    Ton activité idéale en cours serait :
+                </h4>
+                <div class="reponses">
+                    <div class="reponse reponse1">
+                        <label for="check_design3">
+                            Créer une affiche ou un logo pour un évènement
+                        </label>
+                        <input type="radio" name="quest3" id="check_design3">
+                    </div>
+                    <div class="reponse reponse3">
+                        <label for="check_market3">
+                            Imaginer une pub qui marche bien sur TikTok ou Instagram
+                        </label>
+                        <input type="radio" name="quest3" id="check_market3">
+                    </div>
+                    
+                    <div class="reponse reponse2">
+                        <label for="check_dev3">
+                            Programmer un jeu ou résoudre un défi technique
+                        </label>
+                        <input type="radio" name="quest3" id="check_dev3">
+                    </div>
+                </div>
+                <button id="btn-question3" onclick="passageQuestion3()">
+                    Suivant
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la question 3-->
+
+    <!--Début de la question 4-->
+    <div class="question4 background-all" id="question4">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <img src="assets/engrenage.png" alt="Illustration d'un cartable Made in MyDigitalSchool" class="illustration">
+            <div class="question-content question1-content">
+                <h1>
+                    Question 4 :
+                </h1>
+                <h4>
+                    En groupe, quel rôle te correspond le mieux ?
+                </h4>
+                <div class="reponses">
+                    <div class="reponse reponse1">
+                        <label for="check_design4">
+                            Celui qui rend les idées belles et claires
+                        </label>
+                        <input type="radio" name="quest4" id="check_design4">
+                    </div>
+                    <div class="reponse reponse2">
+                        <label for="check_dev4">
+                            Celui qui met tout en place pour que ça fonctionne
+                        </label>
+                        <input type="radio" name="quest4" id="check_dev4">
+                    </div>
+                    <div class="reponse reponse3">
+                        <label for="check_market4">
+                            Celui qui motive l’équipe et partage le projet au reste de la classe
+                        </label>
+                        <input type="radio" name="quest4" id="check_market4">
+                    </div>
+                </div>
+                <button id="btn-question4" onclick="passageQuestion4()">
+                    Suivant
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la question 4-->
+
+    <!--Début de la question 5-->
+    <div class="question5 background-all" id="question5">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <img src="assets/etoile.png" alt="Illustration d'un cartable Made in MyDigitalSchool" class="illustration">
+            <div class="question-content question1-content">
+                <h1>
+                    Question 5 :
+                </h1>
+                <h4>
+                    Quel compliment te ferait le plus plaisir ?
+                </h4>
+                <div class="reponses">
+                    <div class="reponse reponse1">
+                        <label for="check_design5">
+                            C’est super bien présenté, ça donne envie de regarder
+                        </label>
+                        <input type="radio" name="quest5" id="check_design5">
+                    </div>
+                    <div class="reponse reponse3">
+                        <label for="check_market5">
+                            Tu as vraiment bien vendu l’idée, tout le monde était intéressé
+                        </label>
+                        <input type="radio" name="quest5" id="check_market5">
+                    </div>
+                    <div class="reponse reponse2">
+                        <label for="check_dev5">
+                            Tu as tout fait fonctionner, c’est impressionnant
+                        </label>
+                        <input type="radio" name="quest5" id="check_dev5">
+                    </div>
+                </div>
+                <button id="btn-question5" onclick="passageQuestion5()">
+                    Résultat
+                    <img src="assets/fleche_blanche.svg" alt="Une flèche blanche">
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la question 5-->
+
+
+
+
+    <!--Début des réponses personnalisés, il y en a 4, les trois premières sont pour les réponses précises, et 1 pour les réponses divergentes. Elles sont toutes dans une div "reponse-divergente"-->
+
+
+    <!--Réponses developpeur-->
+    <div class="resultat-all resultat-dev background-all" id="resultat-dev">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <div class="resultat-content resultat-dev-content">
+                <h2>
+                    Félicitation ! Vous êtes plus...
+                </h2>
+                <iframe src="https://giphy.com/embed/o0vwzuFwCGAFO" class="giphy-embed" allowFullScreen></iframe>
+                <h2>
+                    ...pôle informatique !
+                </h2>
+                <div class="text-reponse">
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Développeur web</li>
+                        <li>Développeur full-stack</li>
+                        <li>Technicien de support informatique</li>
+                    </ul>
+                    <h3>
+                        Orientez vous vers nos ambassadeurs pour plus de renseignements.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la réponses pôle développeur-->
+
+
+    <!--Réponses pôle création-->
+    <div class="resultat-all resultat-crea background-all" id="resultat-crea">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <div class="resultat-content resultat-crea-content">
+                <h2>
+                    Félicitation ! Vous êtes plus...
+                </h2>
+                <iframe src="https://giphy.com/embed/d31vTpVi1LAcDvdm" class="giphy-embed" allowFullScreen></iframe>
+                <h2>
+                    ...pôle création !
+                </h2>
+                <div class="text-reponse">
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Designer graphique</li>
+                        <li>Directeur artistique</li>
+                        <li>Webdesigner</li>
+                    </ul>
+                    <h3>
+                        Orientez vous vers nos ambassadeurs pour plus de renseignements.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la réponses pôle création-->
+
+
+    <!--Réponses pôle marketing-->
+    <div class="resultat-all resultat-market background-all" id="resultat-market">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <div class="resultat-content resultat-market-content">
+                <h2>
+                    Félicitation ! Vous êtes plus...
+                </h2>
+                <iframe src="https://giphy.com/embed/3orieUs03VUeeBa7Wo" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <h2>
+                    ...pôle marketing !
+                </h2>
+                <div class="text-reponse">
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Community manager</li>
+                        <li>Directeur marketing</li>
+                        <li>Webmarketer</li>
+                    </ul>
+                    <h3>
+                        Orientez vous vers nos ambassadeurs pour plus de renseignements.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de la réponses pôle marketing-->
+
+
+
+    
+    <!--Début réponses divergent-->
+ <div class="resultat-all resultat-divergent background-all" id="resultat-divergent">
+        <div class="wrapper-all">
+            <img src="assets/logo_mds.svg"  alt="Logo de MyDigitalSchool">
+            <div class="resultat-content resultat-divergent-content">
+                <h2>
+                    Félicitation ! Vous êtes plus...
+                </h2>
+                <iframe src="https://giphy.com/embed/SqmkZ5IdwzTP2" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <h2>
+                    ...pôle divergent !
+                </h2>
+                <div class="text-reponse">
+                    <p>
+                        Ne vous inquiétez pas nous avons quand même la solution pour vous. Notre première année de Bachelor qui vous fait découvrir beaucoup de métier et de pôle différents.
+                    </p>
+                    <h3>
+                        Orientez vous vers nos ambassadeurs pour plus de renseignements.
+                    </h3>
+                    <h2>
+                        à savoir que vous avez une dominante en...
+                    </h2>
+                </div>
+                <div class="dev-divergent text-reponse" id="dev-divergent">
+                    <iframe src="https://giphy.com/embed/YQitE4YNQNahy" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <h2>
+                        ...pôle informatique !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Développeur web</li>
+                        <li>Développeur full-stack</li>
+                        <li>Technicien de support informatique</li>
+                    </ul>
+                </div>
+                <div class="crea-divergent text-reponse" id="crea-divergent">
+                    <iframe src="https://giphy.com/embed/lp0nBuaRjcj13j3nMH" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <h2>
+                        ...pôle création !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Designer graphique</li>
+                        <li>Directeur artistique</li>
+                        <li>Webdesigner</li>
+                    </ul>
+                </div>
+                <div class="market-divergent text-reponse" id="market-divergent">
+                    <img src="assets/gif/divergent_market.png" alt="">
+                    <h2>
+                        ...pôle markting !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Community manager</li>
+                        <li>Directeur marketing</li>
+                        <li>Webmarketer</li>
+                    </ul>
+                </div>
+                <div class="mais-aussi" id="mais-aussi">
+                    <h2>
+                        Mais vous avez aussi une dominante en...
+                    </h2>
+                </div>
+                <div class="dev-divergent2 text-reponse" id="dev-divergent2">
+                    <iframe src="https://giphy.com/embed/YQitE4YNQNahy" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <h2>
+                        ...pôle informatique !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Développeur web</li>
+                        <li>Développeur full-stack</li>
+                        <li>Technicien de support informatique</li>
+                    </ul>
+                </div>
+                <div class="crea-divergent2 text-reponse" id="crea-divergent2">
+                    <iframe src="https://giphy.com/embed/lp0nBuaRjcj13j3nMH" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <h2>
+                        ...pôle création !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Designer graphique</li>
+                        <li>Directeur artistique</li>
+                        <li>Webdesigner</li>
+                    </ul>
+                </div>
+                <div class="market-divergent2 text-reponse" id="market-divergent2">
+                    <iframe src="https://giphy.com/embed/xT5LMWNOjGqJzUfyve" class="giphy-embed" allowFullScreen></iframe>
+                    <h2>
+                        ...pôle markting !
+                    </h2>
+                    <p>
+                        c’est un domaine qui vous permettrait de devenir :
+                    </p>
+                    <ul>
+                        <li>Community manager</li>
+                        <li>Directeur marketing</li>
+                        <li>Webmarketer</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Fin réponses divergent-->
+
+    <script src="personnalite.js"></script>
+</body>
+</html>

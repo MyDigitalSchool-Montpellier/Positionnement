@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-family: "DIN OT";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-family: "DIN OT";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h3{
+    color: #000;
+    text-align: center;
+    font-family: "DIN OT";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h4{
+    color: #000;
+    text-align: justify;
+    font-family: "DIN OT";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p, label, li{
+    color: #000;
+    font-family: "DIN OT";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.background-all{
+    background-image: url("assets/fond-gauche.png");
+    background-repeat: round;
+    background-size: cover;
+    background-clip: no-clip;
+    width: 100%;
+    height: 200%;
+}
+
+.wrapper-all{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    height: 100%;
+    padding: 10% 5%;
+    gap: 15px;
+}
+
+.commencement-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    gap: 50px;
+}
+
+.commencement-content button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #2EC7D3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 
+    4px 4px 8.2px 0px rgba(60, 60, 59, 0.50) inset;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    font-family: Dinot;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.illustration{
+    align-self: end;
+    width: 30%;
+    height: auto;
+}
+
+.question-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10%;
+    gap: 50px;
+}
+
+.question-content button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #2EC7D3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 
+    4px 4px 8.2px 0px rgba(60, 60, 59, 0.50) inset;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    font-family: Dinot;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reponses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.reponse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.reponse label{
+    width: 100%;
+    height: auto;
+    padding: 0 75px 0 0;
+}
+
+.question-content button{
+    align-self: center;
+}
+
+.commencement{
+    display: block;
+}
+
+.question1, .question2, .question3, .question4, .question5, .resultat-all{
+    display: none;
+}
+
+.resultat-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.text-reponse, ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.resultat-divergent, .dev-divergent, .market-divergent, .crea-divergent, .dev-divergent2, .market-divergent2, .crea-divergent2, .mais-aussi{
+    display: none;
+}
+
+iframe{
+    width: 344px;
+    height: 258px;
+    flex-shrink: 0;
+    border-radius: 62px;
+}
+
