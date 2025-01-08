@@ -127,9 +127,15 @@ p, label, li{
     line-height: normal;
 }
 
-.illustration{
+.contentimage {
     align-self: end;
     width: 30%;
+    height: auto;
+}
+
+.illustration{
+    align-self: end;
+    width: 100%;
     height: auto;
 }
 
