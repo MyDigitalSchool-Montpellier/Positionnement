@@ -128,7 +128,8 @@ p, label, li{
 }
 
 .contentimage {
-    align-self: end;
+    display: flex;
+    justify-content: end;
     width: 50%;
     height: auto;
     object-fit: cover;
