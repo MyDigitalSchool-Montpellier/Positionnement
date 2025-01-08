@@ -5,7 +5,9 @@
 
 @font-face {
     font-family: 'DINOT';
-    src: url('/DIN OT/DINOT.woff2') format('woff2');
+    src: url('/DIN OT/DINOT.woff2') format('woff2'),
+    url('/DIN OT/DINOT.woff') format('woff');
+
 }
 
 
