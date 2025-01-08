@@ -29,6 +29,7 @@ const marketDivergent2 = document.getElementById("market-divergent2")
 function toggleQuest1() {
     commencement.style.display = "none";
     question1.style.display = "block";
+    window.scrollTo(0, 0);
 }
 
 //Création des 3 tables pour stocker le nombre de réponse.
@@ -55,6 +56,7 @@ function passageQuestion1(){
         }
         question1.style.display = "none";
         question2.style.display = "block";
+        window.scrollTo(0, 0);
         console.log(devTab, designTab, marketTab)
     }
 }
@@ -78,6 +80,7 @@ function passageQuestion2(){
         }
         question2.style.display = "none";
         question3.style.display = "block";
+        window.scrollTo(0, 0);
         console.log(devTab, designTab, marketTab)
     }
 }
@@ -100,6 +103,7 @@ function passageQuestion3(){
         }
         question3.style.display = "none";
         question4.style.display = "block";
+        window.scrollTo(0, 0);
         console.log(devTab, designTab, marketTab)
     }
 }
@@ -123,6 +127,7 @@ function passageQuestion4(){
         }
         question4.style.display = "none";
         question5.style.display = "block";
+        window.scrollTo(0, 0);
         console.log(devTab, designTab, marketTab)
     }
 }
