@@ -68,6 +68,17 @@ p, label, li{
     line-height: normal;
 }
 
+
+.logo_mds{
+    width: 136px;
+    height: auto;
+}
+
+.img-fleche{
+    width: 27px;
+    height: auto;
+}
+
 .background-all{
     background-image: url("assets/fond-gauche.png");
     background-repeat: round;
