@@ -151,6 +151,7 @@ function passageQuestion5(){
             marketTab.push("5")
         }
         question5.style.display = "none";
+        window.scrollTo(0, 0);
 
         if (devTab.length >= 4){
             resultatDev.style.display = "block"
