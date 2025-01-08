@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: 'DINOT';
-    src: url('/DIN OT/DINOT.woff2') format('woff2'),
-    url('/DIN OT/DINOT.woff') format('woff');
-
-}
-
 
 body{
     overflow-y: scroll;
@@ -18,23 +11,17 @@ body{
 h1{
     color: #000;
     text-align: center;
-    font-family: "DINOT";
+    font-family: "Montserrat";
     font-size: 50px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-skip-ink: none;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-    text-underline-position: from-font;
 }
 
 h2{
     color: #000;
     text-align: center;
-    font-family: "DINOT";
+    font-family: "Montserrat";
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
@@ -44,7 +31,7 @@ h2{
 h3{
     color: #000;
     text-align: center;
-    font-family: "DINOT";
+    font-family: "Montserrat";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -54,7 +41,7 @@ h3{
 h4{
     color: #000;
     text-align: justify;
-    font-family: "DINOT";
+    font-family: "Montserrat";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -63,7 +50,7 @@ h4{
 
 p, label, li{
     color: #000;
-    font-family: "DINOT";
+    font-family: "Montserrat";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
