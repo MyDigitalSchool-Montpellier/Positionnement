@@ -129,7 +129,7 @@ p, label, li{
 
 .contentimage {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     width: 50%;
     height: auto;
     object-fit: cover;
