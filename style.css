@@ -5,9 +5,7 @@
 
 @font-face {
     font-family: 'DINOT';
-    src: url('../DIN OT/DINOT.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../DIN OT/DINOT.otf') format('opentype');
 }
 
 
