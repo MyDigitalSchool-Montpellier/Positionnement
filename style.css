@@ -196,12 +196,24 @@ p, label, li{
     margin-top: 50px;
 }
 
-.text-reponse, ul{
+.text-reponse{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
+    margin-bottom: 30px;
+}
+
+.text-reponse h2 {
+    margin-bottom: 10px;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .resultat-divergent, .dev-divergent, .market-divergent, .crea-divergent, .dev-divergent2, .market-divergent2, .crea-divergent2, .mais-aussi{
